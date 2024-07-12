@@ -1,8 +1,8 @@
-#Football Player Rating Prediction
+Football Player Rating Prediction
 
 This repository contains the code and resources for predicting football player ratings using machine learning models. The project involves data preparation, feature extraction, model training, evaluation, and deployment using Streamlit.
 
-#Project Overview
+Project Overview
 
 In this project, we aim to predict a player’s overall rating based on their profile using machine learning techniques. We use the males legacy dataset for training and the players_22 dataset for testing and evaluation.
 
@@ -140,6 +140,11 @@ Screenshots and Demonstrations
  • Model Training: Provide training logs and cross-validation results.
  • Model Evaluation: Include performance metrics tables and hyperparameter tuning results.
  • Deployment: Screenshot of the Streamlit app interface and a link to the live app.
+
+
+![Screenshot 2024-07-12 155845](https://github.com/user-attachments/assets/aedb2514-a60c-4792-beab-6e4abaa9744e)
+![Screenshot 2024-07-12 155900](https://github.com/user-attachments/assets/2f87a4b8-366f-4b60-87b3-b445f42f3793)
+
 
 
 
