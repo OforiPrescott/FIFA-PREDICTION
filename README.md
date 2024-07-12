@@ -64,6 +64,7 @@ Running the Streamlit App Locally
 **1. Clone the repository:**
 
 git clone https://github.com/OforiPrescott/FIFA-PREDICTION.git
+
 **cd FIFA-PREDICTION**
 
 
