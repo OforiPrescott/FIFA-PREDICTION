@@ -1,16 +1,16 @@
-Football Player Rating Prediction
+**Football Player Rating Prediction**
 
 
 This repository contains the code and resources for predicting football player ratings using machine learning models. The project involves data preparation, feature extraction, model training, evaluation, and deployment using Streamlit.
 
-Project Overview
+**Project Overview**
 
 
 In this project, we aim to predict a player’s overall rating based on their profile using machine learning techniques. We use the males legacy dataset for training and the players_22 dataset for testing and evaluation.
 
-Steps Followed
+__Steps Followed__
 
-1. Data Preparation & Feature Extraction
+**1. Data Preparation & Feature Extraction**
 
  • Data Cleaning: Removed irrelevant and duplicate columns from the dataset.
 
@@ -21,20 +21,20 @@ Steps Followed
  • Encoding: Converted categorical variables into numerical format using one-hot encoding and label encoding.
 
 
-2. Feature Selection
+**2. Feature Selection**
 
  • Correlation Analysis: Selected features with the highest correlation with the target variable (player rating).
 
  • Feature Scaling: Scaled the features to ensure they are on the same scale, using techniques like StandardScaler or MinMaxScaler.
 
-3. Model Training
+**3. Model Training**
 
  • Model Selection: Trained multiple models, including RandomForest, XGBoost, and Gradient Boosting Regressors.
 
  • Cross-Validation: Used cross-validation to evaluate model performance and prevent overfitting.
 
 
-4. Model Evaluation and Optimization
+**4. Model Evaluation and Optimization**
 
  • Performance Metrics: Evaluated models using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
@@ -43,12 +43,12 @@ Steps Followed
  • Ensemble Model: Created an ensemble model using the best-performing models.
 
 
-5. Testing with New Data
+**5. Testing with New Data**
 
  • Testing: Used the players_22 dataset to test the model’s performance on new, unseen data.
 
 
-6. Deployment
+**6. Deployment**
 
  • Streamlit App: Deployed the final model using a Streamlit web application.
 
@@ -57,37 +57,37 @@ Steps Followed
  • Heroku Deployment: Optionally deployed the Streamlit app on Heroku for easy access.
 
 
-Usage
+__Usage__
 
 Running the Streamlit App Locally
 
- 1. Clone the repository:
+**1. Clone the repository:**
 
 git clone https://github.com/OforiPrescott/FIFA-PREDICTION.git
-cd FIFA-PREDICTION
+**cd FIFA-PREDICTION**
 
 
- 2. Set up a virtual environment and install dependencies:
+ **2. Set up a virtual environment and install dependencies:**
 
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
 
- 3. Run the Streamlit app:
+ **3. Run the Streamlit app:**
 
 streamlit run app.py
 
 
- 4. Open your browser and go to http://localhost:8501 to access the app.
+ **4. Open your browser and go to http://localhost:8501 to access the app.**
 
 
-Testing the Model
+__Testing the Model__
 
 You can test the model by uploading the players_22 dataset or inputting new player profiles directly on the Streamlit app.
 
 
-Results
+__Results__
 
  • Data Preparation: Screenshots and descriptions of the data cleaning and EDA processes.
 
@@ -100,7 +100,7 @@ Results
  • Deployment: Screenshots and a link to the deployed Streamlit app.
 
 
-Repository Structure
+**Repository Structure**
 
 
  • data/: Contains the training (males_legacy.csv) and testing (players_22.csv) datasets. 
@@ -118,22 +118,21 @@ Use this link to access the dataset: https://drive.google.com/drive/folders/1qWk
  • README.md: Project documentation.
 
 
-Authors
+**Authors**
+
+ •  OforiPrescott
 
 
- • Your Name - OforiPrescott
-
-
-License
+**License**
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-Detailed Steps for Each Section
+**Detailed Steps for Each Section**
 
 
-Data Preparation & Feature Extraction
+__Data Preparation & Feature Extraction__
 
  1. Load Data: Load the datasets using pandas.
 
@@ -146,14 +145,14 @@ Data Preparation & Feature Extraction
  5. Encoding: Convert categorical variables to numerical using OneHotEncoder or LabelEncoder.
 
 
-Feature Selection
+**Feature Selection**
 
  1. Correlation Matrix: Calculate the correlation matrix and select features with high correlation to the target variable.
 
  2. Feature Scaling: Apply StandardScaler or MinMaxScaler to standardize the features.
 
 
-Model Training
+**Model Training**
 
  1. Model Selection: Choose models like RandomForestRegressor, XGBRegressor, and GradientBoostingRegressor.
 
@@ -162,7 +161,7 @@ Model Training
  3. Training: Fit the models on the training data.
 
 
-Model Evaluation and Optimization
+__Model Evaluation and Optimization__
 
 
  1. Evaluate Performance: Calculate MAE and RMSE for each model.
@@ -171,7 +170,7 @@ Model Evaluation and Optimization
 
  3. Ensemble Modeling: Combine the best-performing models to create an ensemble model.
 
-Testing with New Data
+__Testing with New Data__
 
  1. Load Testing Data: Load players_22 dataset.
 
@@ -179,13 +178,13 @@ Testing with New Data
 
  3. Evaluate Model: Test the model on the new data and record performance metrics.
 
-Deployment
+__Deployment__
 
  1. Streamlit App: Create a Streamlit app to provide an interface for user input and model predictions.
 
  2. Heroku Deployment: Deploy the Streamlit app on Heroku for public access. Provide a link to the deployed app.
 
-Screenshots and Demonstrations
+__Screenshots and Demonstrations__
 
  • Data Preparation: Include screenshots of EDA plots and data cleaning steps.
 
@@ -201,8 +200,6 @@ Screenshots and Demonstrations
 ![Screenshot 2024-07-12 155845](https://github.com/user-attachments/assets/aedb2514-a60c-4792-beab-6e4abaa9744e)
 
 ![Screenshot 2024-07-12 155900](https://github.com/user-attachments/assets/2f87a4b8-366f-4b60-87b3-b445f42f3793)
-
-
 
 
 
